@@ -1,0 +1,31 @@
+{
+  "name": "express-mongo-image-upload",
+  "version": "10.8.2",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon app.js",
+    "qr": "nodemon qrcode.js",
+    "payment": "nodemon finixMakePayment.js",
+    "img": "nodemon img.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.2",
+    "body-parser": "^1.20.2",
+    "canvas": "^2.11.2",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "face-api.js": "^0.22.2",
+    "fluent-ffmpeg": "^2.1.3",
+    "img": "^3.0.3",
+    "mongodb": "^6.6.2",
+    "mongoose": "^8.4.0",
+    "multer": "^1.4.5-lts.1",
+    "nodemon": "^3.1.3",
+    "qrcode": "^1.5.3"
+  }
+}
